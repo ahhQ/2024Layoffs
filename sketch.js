@@ -176,7 +176,7 @@ function drawBoxesAndBooks() {
     fill(0);
     textAlign(LEFT, TOP);
     textSize(12);
-    text("click a box to start >", xOffset, yOffset - 40);
+    text("click a box to start ->", xOffset, yOffset - 40);
     
 
     Object.entries(industries).forEach(([industry, companies]) => {
