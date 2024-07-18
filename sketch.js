@@ -38,7 +38,6 @@ function windowResized() {
 }
 
 function setup() {
-    // Calculate frame width to remove white spaces
     frameWidth = windowWidth * 0.7;
     if (windowWidth <= 1024) {
         frameWidth = windowWidth * 0.65;
@@ -49,24 +48,22 @@ function setup() {
     if (windowWidth <= 480) {
         frameWidth = windowWidth;
     }
-    canvas = createCanvas(frameWidth, windowHeight * 2); // Initial canvas height set to twice the window height
+    canvas = createCanvas(frameWidth, windowHeight * 2); 
 
-    // Create a scrollable div for the frame
     scrollableDiv = createDiv();
-    scrollableDiv.position(windowWidth * 0.3, 0); // Adjust position to account for the sticky section
+    scrollableDiv.position(windowWidth * 0.3, 0); 
     scrollableDiv.style('width', `${frameWidth}px`);
     scrollableDiv.style('height', `${windowHeight}px`);
     scrollableDiv.style('overflow-y', 'scroll');
     scrollableDiv.style('overflow-x', 'hidden');
     scrollableDiv.style('position', 'absolute');
 
-    // Move the canvas inside the scrollable div
     canvas.parent(scrollableDiv);
 
     processData();
     assignColors();
-    createLegend(); // Call the createLegend function here
-    textFont('Space Mono'); // Set the font to Space Mono
+    createLegend(); 
+    textFont('Space Mono'); 
 
     document.getElementById('legend-toggle').addEventListener('click', toggleLegendPopup);
     document.getElementById('unclick-all').addEventListener('click', unclickAll);
@@ -154,8 +151,8 @@ function assignColors() {
     
     industryList.forEach((industry, index) => {
         let totalLayoffs = industries[industry].totalLayoffs;
-        let shade = map(totalLayoffs, 0, maxLayoffs, 100, 30); // Map total layoffs to a shade value (0 is darkest, 100 is lightest)
-        industryColors[industry] = color(`hsb(35, 30%, ${shade}%)`); // Using HSB model with brown hue (30)
+        let shade = map(totalLayoffs, 0, maxLayoffs, 100, 30); 
+        industryColors[industry] = color(`hsb(35, 30%, ${shade}%)`); 
     });
 
     colorMode(HSB, 360, 100, 100);
@@ -172,7 +169,6 @@ function drawBoxesAndBooks() {
     let boxesInCurrentRow = 0;
     let maxLayoffs = getMaxLayoffs();
     
-    // Add the instruction text on top of all the boxes
     fill(0);
     textAlign(LEFT, TOP);
     textSize(12);
@@ -187,17 +183,15 @@ function drawBoxesAndBooks() {
             let boxX = xOffset;
             let boxY = yOffset;
 
-            // Draw the box
             fill(industryColors[industry]);
             rect(boxX, boxY, boxWidth, boxHeight);
             noStroke();
 
-            // Draw industry name on the first box of the industry
             if (boxIndex === 0) {
                 fill(0);
                 textAlign(LEFT, BOTTOM);
                 textSize(10);
-                text(industry, boxX, boxY + boxHeight + 15); // Position the label to the left bottom of the box
+                text(industry, boxX, boxY + boxHeight + 15); 
             }
             let booksDrawn = 0;
             let startIndex = boxIndex * maxBooksPerBox;
@@ -207,9 +201,8 @@ function drawBoxesAndBooks() {
                 let company = companies[i];
                 let bookHeight = map(company.total_laid_off, 0, maxLayoffs, 3, 80);
                 let bookX = boxX + (booksDrawn * (bookWidth + 2)) + 5;
-                let bookY = boxY - bookHeight; // Place books on top of the box
+                let bookY = boxY - bookHeight; 
 
-                // Filter by selected countries
                 if (selectedCountries.length === 0 || selectedCountries.includes(company.country)) {
                     fill(countryColors[company.country]);
                     rect(bookX, bookY, bookWidth, bookHeight);
@@ -221,15 +214,14 @@ function drawBoxesAndBooks() {
             boxesInCurrentRow++;
             if (boxesInCurrentRow >= boxesPerRow) {
                 xOffset = 25;
-                yOffset += boxHeight + 100; // Increased vertical spacing to accommodate books
+                yOffset += boxHeight + 100; 
                 boxesInCurrentRow = 0;
             } else {
-                xOffset += boxWidth + 20; // Increased horizontal spacing
+                xOffset += boxWidth + 20; 
             }
         }
     });
 
-    // Adjust canvas height if needed
     if (yOffset + boxHeight > height) {
         resizeCanvas(frameWidth, yOffset + boxHeight + 20);
     }
@@ -261,7 +253,7 @@ function toggleLegendPopup() {
 
 function createLegend() {
     const legendContainer = document.getElementById('legend-container');
-    legendContainer.innerHTML = ''; // Clear any existing content
+    legendContainer.innerHTML = ''; 
     Object.entries(countryColors).forEach(([country, color]) => {
         const legendItem = document.createElement('div');
         legendItem.classList.add('legend-item');
@@ -273,7 +265,7 @@ function createLegend() {
 
         const countryLabel = document.createElement('span');
         countryLabel.innerText = country;
-        countryLabel.id = `label-${country}`; // Add an ID for easy reference
+        countryLabel.id = `label-${country}`; 
 
         legendItem.appendChild(colorBox);
         legendItem.appendChild(countryLabel);
@@ -289,7 +281,7 @@ function toggleCountryFilter(country) {
         selectedCountries.splice(index, 1);
     }
     updateLegendStyles();
-    redraw(); // Redraw canvas to apply the filter
+    redraw(); 
 }
 
 function updateLegendStyles() {
@@ -311,16 +303,16 @@ function unclickAll() {
 
 function updateHandBox() {
     const handBoxContainer = document.getElementById('hand-box-container');
-    handBoxContainer.innerHTML = ''; // Clear previous content
+    handBoxContainer.innerHTML = ''; 
     if (!selectedBoxContent) return;
 
     const { industry, companies } = selectedBoxContent;
     const maxLayoffs = getMaxLayoffs();
     const boxDiv = document.createElement('div');
-    const smallerBoxWidth = 110; // Smaller box width
-    const smallerBoxHeight = 60; // Smaller box height
-    const smallerBookWidth = 18; // Adjust the book width to fit the smaller box
-    const bookSpacing = 5; // Adjust the spacing between the first book and the left edge
+    const smallerBoxWidth = 110; 
+    const smallerBoxHeight = 60; 
+    const smallerBookWidth = 18; 
+    const bookSpacing = 5; 
 
     boxDiv.style.position = 'relative';
     boxDiv.style.width = `${smallerBoxWidth}px`;
@@ -334,8 +326,8 @@ function updateHandBox() {
         bookDiv.style.width = `${smallerBookWidth}px`;
         bookDiv.style.height = `${bookHeight}px`;
         bookDiv.style.backgroundColor = countryColors[company.country].toString();
-        bookDiv.style.left = `${bookSpacing + index * (smallerBookWidth + 2)}px`; // Add spacing to the left
-        bookDiv.style.bottom = `60px`; // Ensure books are on top of the smaller box
+        bookDiv.style.left = `${bookSpacing + index * (smallerBookWidth + 2)}px`; 
+        bookDiv.style.bottom = `60px`; 
         bookDiv.dataset.company = company.company;
         bookDiv.dataset.location = company.location;
         bookDiv.dataset.country = company.country
