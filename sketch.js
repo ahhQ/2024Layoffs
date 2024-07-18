@@ -75,7 +75,7 @@ function draw() {
 }
 
 function mousePressed() {
-    let xOffset = 20;
+    let xOffset = 25;
     let yOffset = 50;
     let boxesInCurrentRow = 0;
 
@@ -107,7 +107,7 @@ function mousePressed() {
 
             boxesInCurrentRow++;
             if (boxesInCurrentRow >= boxesPerRow) {
-                xOffset = 20;
+                xOffset = 25;
                 yOffset += boxHeight + 120;
                 boxesInCurrentRow = 0;
             } else {
