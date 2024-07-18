@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Layoffs Visualization 2024</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+
+<body>
+    <div id="sticky-section">
+        <h1>Layoffs in 2024, so far...</h1>
+        <p>Ever since the pandemic, the world has faced significant shifts in employment across various industries and
+            regions. Explore the vivid snapshot of global layoffs so far in 2024, dive into the data, and uncover the
+            stories behind the numbers. Engage with this narrative of resilience and change, and gain new perspectives
+            on the global employment landscape.</p>
+        <div id="man-container">
+            <img src="man2.png" alt="Man Image" id="man-image">
+            <div id="hand-box-container"></div>
+        </div>
+        <div id="info-container">
+            <ul id="info-list"></ul>
+        </div>
+        <hr id="separator-line">
+        <section id="author-section">
+            <a href="http://www.haonanqin.com" id="author-link">@ Haonan Qin</a>
+        </section>
+    </div>
+    <section id="legend-section">
+        <div id="legend-popup-container">
+            <div id="legend-popup-header">
+                <button id="legend-toggle">Legend +</button>
+            </div>
+            <div id="legend-popup" class="hidden">
+                <div id="legend-container">
+                    <!-- Legend items will be populated dynamically -->
+                </div>
+                <div id="unclick-all">Unclick</div>
+            </div>
+        </div>
+    </section>
+    <div id="scrollable-div">
+        <script src="sketch.js"></script>
+    </div>
+</body>
+
+</html>

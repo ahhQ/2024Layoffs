@@ -1,0 +1,254 @@
+company,location,industry,total_laid_off,percentage_laid_off,date,stage,country,funds_raised
+UKG,Boston,HR,2200.0,0.14,2024-07-03,Unknown,United States,
+OpenText,Waterloo,Data,1200.0,0.02,2024-07-03,Post-IPO,Canada,1100.0
+Unacademy,Bengaluru,Education,250.0,,2024-07-02,Series H,India,838.0
+Lightricks,Jerusalem,Consumer,70.0,0.12,2024-07-01,Series D,Israel,335.0
+Upside Foods,SF Bay Area,Food,26.0,,2024-07-01,Unknown,United States,598.0
+Sightful,Tel Aviv,Hardware,20.0,0.33,2024-07-01,Unknown,Israel,61.0
+Priceline,Norwalk,Travel,103.0,0.17,2024-06-28,Acquired,United States,77.0
+RealPage,Dallas,Real Estate,260.0,0.04,2024-06-27,Acquired,United States,105.0
+Planet,SF Bay Area,Aerospace,180.0,0.17,2024-06-26,Post-IPO,United States,574.0
+Moxion Power,SF Bay Area,Energy,101.0,,2024-06-26,Unknown,United States,124.0
+Perion,Tel Aviv,Marketing,35.0,0.05,2024-06-25,Post-IPO,Israel,76.0
+Flutterwave,SF Bay Area,Finance,30.0,0.03,2024-06-24,Unknown,United States,509.0
+Ginkgo Bioworks,Boston,Healthcare,400.0,0.35,2024-06-20,Post-IPO,United States,1600.0
+Emma Sleep,Frankfurt,Retail,200.0,0.18,2024-06-19,Acquired,Germany,
+Moovit,Tel Aviv,Transportation,20.0,0.1,2024-06-19,Acquired,Israel,131.0
+Wex,Portland,Finance,375.0,0.05,2024-06-18,Post-IPO,United States,400.0
+PayPal,SF Bay Area,Finance,85.0,,2024-06-18,Post-IPO,Ireland,216.0
+Rapyd,Tel Aviv,Finance,30.0,,2024-06-18,Unknown,Israel,770.0
+C2FO,Kansas City,Finance,16.0,,2024-06-18,Series H,United States,537.0
+Chegg,SF Bay Area,Education,441.0,0.23,2024-06-17,Post-IPO,United States,227.0
+LOOP,Austin,Finance,23.0,0.77,2024-06-16,Series A,United States,34.0
+Care/of,New York City,Healthcare,143.0,1.0,2024-06-15,Acquired,United States,83.0
+Satellogic,Montevideo,Aerospace,70.0,0.3,2024-06-14,Post-IPO,Uruguay,424.0
+Cypress.io,Atlanta,Product,11.0,,2024-06-14,Series B,United States,54.0
+Bytedance,Jakarta,Consumer,450.0,,2024-06-12,Unknown,Indonesia,9400.0
+Paxos,New York City,Crypto,65.0,0.2,2024-06-12,Unknown,United States,543.0
+Paytm,Noida,Finance,3500.0,,2024-06-10,Subsidiary,India,
+Kissflow,Chennai,Other,45.0,0.11,2024-06-10,Unknown,India,1.0
+Copia,Nairobi,Retail,1060.0,,2024-06-06,Series C,Kenya,103.0
+Revel,New York City,Transportation,1000.0,,2024-06-06,Unknown,United States,214.0
+Simpl,Bengaluru,Finance,30.0,,2024-06-06,Series B,India,72.0
+Oda,Oslo,Food,150.0,,2024-06-05,Unknown,Norway,691.0
+Pagaya,Tel Aviv,Finance,100.0,0.2,2024-06-05,Post-IPO,Israel,2000.0
+Aleph Farms,Tel Aviv,Food,30.0,0.3,2024-06-05,Unknown,Israel,119.0
+MoonPay,Dover,Crypto,30.0,0.1,2024-06-05,Unknown,United States,651.0
+Microsoft,Seattle,Other,1000.0,,2024-06-03,Post-IPO,United States,1.0
+OrCam,Jerusalem,Healthcare,100.0,0.5,2024-06-03,Unknown,Israel,86.0
+Google,SF Bay Area,Consumer,100.0,,2024-05-31,Post-IPO,United States,26.0
+Tropic,New York City,Finance,40.0,,2024-05-31,Series B,United States,67.0
+FlightStats,Portland,Travel,73.0,,2024-05-30,Acquired,United States,3.0
+ICANN,Los Angeles,Infrastructure,33.0,0.07,2024-05-30,Unknown,United States,
+Walnut,New York City,Sales,15.0,0.2,2024-05-29,Series B,United States,56.0
+Lucid Motors,SF Bay Area,Transportation,400.0,0.06,2024-05-24,Post-IPO,United States,8300.0
+Satellogic,Montevideo,Aerospace,34.0,0.13,2024-05-24,Post-IPO,Uruguay,424.0
+Foursquare,New York City,Marketing,105.0,0.25,2024-05-23,Series G,United States,390.0
+Guild,Denver,Education,300.0,0.25,2024-05-22,Series F,United States,643.0
+Cue Health,San Diego,Healthcare,180.0,1.0,2024-05-22,Post-IPO,United States,899.0
+TikTok,Los Angeles,Consumer,1000.0,,2024-05-21,Acquired,United States,
+Toshiba,Tokyo,Manufacturing,4000.0,,2024-05-16,Unknown,Japan,
+Wefox,Berlin,Finance,60.0,,2024-05-16,Series D,Germany,1300.0
+Replit,SF Bay Area,Product,30.0,0.2,2024-05-16,Unknown,United States,222.0
+Atmosphere,Austin,Other,100.0,,2024-05-15,Series D,United States,214.0
+Singularity 6,Los Angeles,Other,36.0,,2024-05-15,Series B,United States,49.0
+Indeed,Austin,HR,1000.0,0.08,2024-05-13,Acquired,United States,5.0
+Motional,Pittsburgh,Transportation,550.0,0.4,2024-05-10,Unknown,United States,
+Rivian,Los Angeles,Transportation,120.0,,2024-05-10,Post-IPO,United States,10700.0
+Google,SF Bay Area,Consumer,57.0,,2024-05-10,Post-IPO,United States,26.0
+Vacasa,Portland,Travel,800.0,0.13,2024-05-09,Post-IPO,United States,834.0
+Sight Diagnostics,Tel Aviv,Healthcare,40.0,0.3,2024-05-09,Series D,Israel,124.0
+PrepLadder,New Delhi,Education,145.0,0.25,2024-05-08,Acquired,India,
+Simpl,Bengaluru,Finance,100.0,0.15,2024-05-08,Series B,India,72.0
+Arkane Studios,Austin,Consumer,96.0,1.0,2024-05-08,Unknown,United States,
+Enovix,SF Bay Area,Energy,170.0,0.33,2024-05-06,Post-IPO,United States,516.0
+Cue Health,San Diego,Healthcare,230.0,0.49,2024-05-03,Post-IPO,United States,899.0
+Rivian,Los Angeles,Transportation,150.0,,2024-05-03,Post-IPO,United States,10700.0
+Luminar,Orlando,Transportation,140.0,0.2,2024-05-03,Post-IPO,United States,780.0
+Sprinklr,New York City,Support,116.0,0.03,2024-05-03,Post-IPO,United States,429.0
+Bakkt,Atlanta,Crypto,28.0,,2024-05-03,Post-IPO,United States,932.0
+Peloton,New York City,Fitness,400.0,0.15,2024-05-02,Post-IPO,United States,1900.0
+Cabify,Madrid,Transportation,29.0,,2024-05-02,Unknown,Spain,601.0
+Google,SF Bay Area,Consumer,200.0,,2024-05-01,Post-IPO,United States,26.0
+Assurance,Seattle,Finance,112.0,1.0,2024-05-01,Acquired,United States,
+Tesla,Austin,Transportation,500.0,,2024-04-30,Post-IPO,United States,20200.0
+RiseUp,Tel Aviv,Finance,50.0,0.5,2024-04-30,Series B,Israel,30.0
+Getir,London,Food,3300.0,,2024-04-29,Series E,United Kingdom,1800.0
+Ola,Bengaluru,Transportation,180.0,0.1,2024-04-29,Series J,India,5000.0
+Ninja Van,Singapore,Transportation,21.0,0.1,2024-04-29,Series E,Singapore,974.0
+HealthifyMe,Bengaluru,Healthcare,150.0,0.27,2024-04-27,Series D,India,130.0
+True Anomaly,Denver,Aerospace,30.0,0.25,2024-04-25,Series B,United States,158.0
+Freenome,SF Bay Area,Healthcare,100.0,0.2,2024-04-23,Series E,United States,1400.0
+Heureka Group,Prague,Retail,100.0,0.16,2024-04-23,Acquired,Czech Republic,
+OutSystems,Boston,Product,150.0,0.08,2024-04-19,Series G,United States,802.0
+The Good Glamm Group,New Delhi,Retail,150.0,0.15,2024-04-18,Unknown,India,180.0
+Showpad,Ghent,Marketing,50.0,0.1,2024-04-18,Series D,Belgium,159.0
+Stability AI,London,AI,20.0,,2024-04-18,Unknown,United Kingdom,174.0
+Take-Two,New York City,Consumer,579.0,0.05,2024-04-16,Post-IPO,United States,4100.0
+Tome,SF Bay Area,AI,12.0,0.25,2024-04-16,Series B,United States,75.0
+Tesla,Austin,Transportation,14000.0,0.1,2024-04-15,Post-IPO,United States,20200.0
+Criteo,Paris,Marketing,140.0,0.04,2024-04-12,Post-IPO,France,61.0
+Glovo,Barcelona,Food,25.0,,2024-04-12,Acquired,Spain,1200.0
+TikTok,Dublin,Consumer,250.0,,2024-04-11,Acquired,Ireland,
+Fabric,New York City,Logistics,30.0,0.15,2024-04-11,Series C,United States,336.0
+Cornershop,Santiago,Food,200.0,,2024-04-10,Acquired,Chile,32.0
+Scaler,Bengaluru,Education,150.0,,2024-04-10,Series B,India,55.0
+Checkr,SF Bay Area,HR,382.0,0.32,2024-04-09,Series D,United States,679.0
+Intel,SF Bay Area,Hardware,62.0,,2024-04-09,Post-IPO,United States,12.0
+Trendsales,Copenhagen,Retail,79.0,1.0,2024-04-08,Acquired,Denmark,
+Singularity 6,Los Angeles,Other,49.0,0.35,2024-04-08,Series B,United States,49.0
+Bolt.Earth,Bengaluru,Energy,70.0,0.4,2024-04-06,Series B,India,24.0
+Apple,SF Bay Area,Hardware,614.0,,2024-04-04,Post-IPO,United States,1200.0
+Lightspeed Commerce,Montreal,Retail,280.0,,2024-04-03,Post-IPO,Canada,1200.0
+Ghost Autonomy,SF Bay Area,Transportation,100.0,1.0,2024-04-03,Series E,United States,247.0
+Vivian Health,SF Bay Area,Healthcare,13.0,,2024-04-03,Acquired,United States,60.0
+Byju's,Bengaluru,Education,500.0,0.03,2024-04-02,Private Equity,India,5500.0
+Osso VR,SF Bay Area,Healthcare,67.0,,2024-04-01,Series C,United States,109.0
+Identiq,Tel Aviv,Security,20.0,0.44,2024-04-01,Series A,Israel,52.0
+ChowNow,Los Angeles,Food,60.0,0.2,2024-03-28,Series C,United States,64.0
+Synctera,SF Bay Area,Finance,17.0,0.15,2024-03-26,Series A,United States,79.0
+Dell,Austin,Hardware,6000.0,0.05,2024-03-25,Post-IPO,United States,
+ShopBack,Singapore,Retail,195.0,0.24,2024-03-19,Series F,Singapore,355.0
+Orbotech,Yavne,Manufacturing,100.0,,2024-03-19,Acquired,Israel,
+Flock Freight,San Diego,Logistics,54.0,,2024-03-16,Series D,United States,399.0
+Chipper Cash,SF Bay Area,Finance,20.0,,2024-03-15,Series C,United States,302.0
+Ancestry,Lehi,Consumer,81.0,0.06,2024-03-14,Post-IPO,United States,33.0
+Textio,Seattle,Recruiting,14.0,0.16,2024-03-14,Unknown,United States,42.0
+Stash,New York City,Finance,80.0,0.25,2024-03-13,Unknown,United States,480.0
+Phantom Auto,SF Bay Area,Transportation,100.0,1.0,2024-03-12,Unknown,United States,86.0
+Deadspin,New York City,Media,11.0,1.0,2024-03-11,Acquired,United States,
+Niche,Pittsburgh,Education,24.0,0.07,2024-03-08,Series C,United States,44.0
+Turnitin,SF Bay Area,Education,15.0,0.02,2024-03-07,Acquired,United States,
+Sorare,New York City,Crypto,22.0,0.13,2024-03-06,Series B,United States,739.0
+MessageBird,Amsterdam,Other,90.0,0.2,2024-03-05,Series C,Netherlands,1100.0
+Edgio,Phoenix,Infrastructure,80.0,0.1,2024-03-04,Post-IPO,United States,462.0
+Melio,New York City,Finance,40.0,0.07,2024-03-04,Series D,United States,504.0
+Our Next Energy,Detroit,Transportation,40.0,0.13,2024-03-04,Series B,United States,390.0
+Project Ronin,SF Bay Area,Healthcare,150.0,1.0,2024-03-01,Unknown,United States,
+Pristyn Care,Gurugram,Healthcare,120.0,0.07,2024-03-01,Series E,India,177.0
+Gro Intelligence,New York City,Food,90.0,0.6,2024-03-01,Series B,United States,118.0
+Electronic Arts,SF Bay Area,Consumer,670.0,0.05,2024-02-28,Post-IPO,United States,2.0
+Vacasa,Portland,Travel,320.0,0.05,2024-02-28,Post-IPO,United States,834.0
+OrCam,Jerusalem,Healthcare,50.0,0.19,2024-02-28,Unknown,Israel,86.0
+Treasury Prime,SF Bay Area,Finance,40.0,0.4,2024-02-28,Series C,United States,71.0
+Sony Interactive,SF Bay Area,Consumer,900.0,0.08,2024-02-27,Subsidiary,United States,
+Bumble,Austin,Consumer,350.0,0.3,2024-02-27,Post-IPO,United States,313.0
+PropertyGuru,Singapore,Real Estate,79.0,,2024-02-27,Post-IPO,Singapore,676.0
+Expedia,Seattle,Travel,1500.0,0.08,2024-02-26,Post-IPO,United States,3300.0
+WayCool,Chennai,Food,70.0,,2024-02-26,Unknown,India,363.0
+Redesign Health,New York City,Healthcare,77.0,,2024-02-23,Series C,United States,315.0
+Carbon Health,SF Bay Area,Healthcare,56.0,,2024-02-23,Series D,United States,522.0
+Affirm,Pittsburgh,Finance,60.0,,2024-02-21,Post-IPO,United States,1500.0
+Finder,Sydney,Retail,60.0,0.17,2024-02-21,Unknown,Australia,30.0
+Aptiv,Krakow,Transportation,250.0,,2024-02-20,Post-IPO,Poland,8.0
+Tails.com,London,Retail,55.0,0.25,2024-02-20,Series A,United Kingdom,5.0
+Farfetch,London,Retail,2000.0,0.25,2024-02-16,Acquired,United Kingdom,1700.0
+Voi,Stockholm,Transportation,120.0,0.12,2024-02-16,Series D,United States,515.0
+Toast,Boston,Food,550.0,0.1,2024-02-15,Post-IPO,United States,962.0
+Sonder,SF Bay Area,Travel,106.0,0.17,2024-02-15,Post-IPO,United States,839.0
+Storytel,Stockholm,Consumer,80.0,0.13,2024-02-15,Post-IPO,Sweden,312.0
+Gro Intelligence,New York City,Food,20.0,0.1,2024-02-15,Series B,United States,118.0
+Cisco,SF Bay Area,Infrastructure,4250.0,0.05,2024-02-14,Post-IPO,United States,2.0
+Wint Wealth,Nashik,Finance,19.0,0.2,2024-02-14,Series A,India,16.0
+Instacart,SF Bay Area,Food,250.0,0.07,2024-02-13,Post-IPO,United States,2900.0
+Redesign Health,New York City,Healthcare,77.0,,2024-02-13,Unknown,United States,315.0
+Mozilla,SF Bay Area,Consumer,60.0,0.05,2024-02-13,Unknown,United States,2.3
+Impinj,Seattle,Other,50.0,0.1,2024-02-13,Post-IPO,United States,137.0
+Riskified,New York City,Retail,40.0,0.06,2024-02-13,Post-IPO,United States,229.0
+SiriusXM,New York City,Media,160.0,0.03,2024-02-12,Post-IPO,United States,525.0
+Licious,Bengaluru,Food,80.0,0.03,2024-02-09,Series F,India,490.0
+BlissClub,Bengaluru,Retail,21.0,0.18,2024-02-09,Series A,India,20.0
+Pure Storage,SF Bay Area,Data,275.0,,2024-02-08,Post-IPO,United States,529.0
+Otovo,Oslo,Energy,65.0,0.15,2024-02-08,Post-IPO,Norway,247.0
+Grammarly,SF Bay Area,Consumer,230.0,,2024-02-07,Unknown,United States,400.0
+Fireblocks,New York City,Crypto,20.0,0.03,2024-02-07,Series E,United States,1000.0
+DocuSign,SF Bay Area,Sales,440.0,0.06,2024-02-06,Post-IPO,United States,536.0
+Amazon,Seattle,Retail,400.0,,2024-02-06,Post-IPO,United States,108.0
+Snap,Los Angeles,Consumer,500.0,0.1,2024-02-05,Post-IPO,United States,4900.0
+Drizly,Boston,Retail,168.0,1.0,2024-02-05,Acquired,United States,119.0
+BillGO,Fort Collins,Finance,80.0,,2024-02-05,Series B,United States,119.0
+Impact.com,Los Angeles,Sales,40.0,0.03,2024-02-05,Private Equity,United States,361.0
+Cue Health,San Diego,Healthcare,245.0,0.3,2024-02-02,Post-IPO,United States,899.0
+Top Hat,Toronto,Education,35.0,0.07,2024-02-02,Series E,Canada,234.0
+Okta,SF Bay Area,Security,400.0,0.07,2024-02-01,Post-IPO,United States,1200.0
+Zoom,SF Bay Area,Other,150.0,0.02,2024-02-01,Post-IPO,United States,276.0
+Illumina,San Diego,Healthcare,111.0,,2024-02-01,Post-IPO,United States,28.0
+Polygon,Cayman Islands,Crypto,60.0,0.19,2024-02-01,Unknown,Cayman Islands,451.0
+Proofpoint,SF Bay Area,Security,280.0,0.06,2024-01-31,Acquired,United States,885.0
+Trove Recommerce,SF Bay Area,Retail,130.0,,2024-01-31,Series E,United States,152.0
+CircleCI,SF Bay Area,Product,100.0,,2024-01-31,Series F,United States,315.0
+Thinx,New York City,Retail,95.0,,2024-01-31,Acquired,United States,26.0
+Innoviz,Tel Aviv,Transportation,60.0,0.13,2024-01-31,Post-IPO,Israel,547.0
+PayPal,SF Bay Area,Finance,2500.0,0.09,2024-01-30,Post-IPO,United States,216.0
+Block,SF Bay Area,Finance,1000.0,0.1,2024-01-30,Post-IPO,United States,150.0
+Kiwi.com,Brno,Travel,216.0,0.18,2024-01-30,Unknown,Czech Republic,107.0
+Aurora Solar,SF Bay Area,Energy,111.0,0.2,2024-01-30,Series D,United States,523.0
+Wattpad,Toronto,Media,20.0,0.1,2024-01-30,Acquired,Canada,117.0
+TechCrunch,SF Bay Area,Media,7.0,,2024-01-30,Acquired,United States,
+iRobot,Boston,Consumer,350.0,0.31,2024-01-29,Post-IPO,United States,30.0
+DispatchHealth,Denver,Healthcare,88.0,,2024-01-29,Series E,United States,733.0
+Salesforce,SF Bay Area,Sales,700.0,0.01,2024-01-26,Post-IPO,United States,65.0
+Microsoft,Seattle,Other,1900.0,,2024-01-25,Post-IPO,United States,1.0
+Swiggy,Bengaluru,Food,400.0,0.07,2024-01-25,Unknown,India,3600.0
+Veho,Boulder,Logistics,65.0,0.19,2024-01-25,Series B,United States,299.0
+Amperity,Seattle,Marketing,20.0,,2024-01-25,Series D,United States,187.0
+MVPindex,Austin,Marketing,12.0,0.3,2024-01-25,Series B,United States,27.0
+Cult.fit,Bengaluru,Fitness,100.0,,2024-01-24,Series F,India,635.0
+Personio,Munich,HR,100.0,,2024-01-24,Series E,Germany,724.0
+Storytel,Stockholm,Media,80.0,0.13,2024-01-24,Post-IPO,Sweden,275.0
+SAP,Walldorf,Other,8000.0,0.07,2024-01-23,Post-IPO,Germany,1300.0
+eBay,SF Bay Area,Retail,1000.0,0.09,2024-01-23,Post-IPO,United States,1200.0
+Vroom,New York City,Transportation,800.0,0.9,2024-01-23,Post-IPO,United States,1300.0
+Brex,SF Bay Area,Finance,282.0,0.2,2024-01-23,Series D,United States,1500.0
+Cure.fit,Bengaluru,Fitness,120.0,,2024-01-23,Series F,India,625.0
+GoStudent,Vienna,Education,100.0,,2024-01-23,Series D,Austria,686.0
+GoTo,Boston,Other,29.0,,2024-01-23,Acquired,United States,2.0
+Seedr,London,Finance,15.0,,2024-01-23,Acquired,United Kingdom,28.0
+Riot Games,Los Angeles,Consumer,530.0,0.11,2024-01-22,Acquired,United States,21.0
+Xendit,Jakarta,Finance,200.0,,2024-01-22,Series D,Indonesia,534.0
+TikTok,Los Angeles,Consumer,60.0,,2024-01-22,Acquired,United States,
+SolarEdge,Tel Aviv,Energy,900.0,0.16,2024-01-21,Post-IPO,Israel,155.0
+Wayfair,Boston,Retail,1650.0,0.13,2024-01-19,Post-IPO,United States,1700.0
+Amazon,Seattle,Retail,30.0,,2024-01-18,Post-IPO,United States,108.0
+YouTube,SF Bay Area,Media,100.0,,2024-01-17,Acquired,United States,11.0
+Sirplus,Berlin,Food,60.0,,2024-01-17,Seed,Germany,
+SonderMind,Denver,Healthcare,49.0,0.17,2024-01-16,Series C,United States,183.0
+First Mode,Seattle,Transportation,48.0,0.2,2024-01-16,Acquired,United States,9.0
+Veeam,Columbus,Data,300.0,,2024-01-12,Acquired,United States,500.0
+GrabCAD,Tallinn,Other,13.0,,2024-01-12,Acquired,Estonia,28.0
+New Work SE,Hamburg,Consumer,400.0,,2024-01-11,Post-IPO,Germany,
+Playtika,Tel Aviv,Consumer,300.0,0.1,2024-01-11,Post-IPO,Israel,
+Discord,SF Bay Area,Consumer,170.0,0.17,2024-01-11,Series H,United States,995.0
+Inmobi,Bengaluru,Marketing,125.0,0.05,2024-01-11,Unknown,India,320.0
+Audible,New York City,Media,100.0,0.05,2024-01-11,Acquired,United States,14.0
+7Shifts,Saskatoon,Food,68.0,0.19,2024-01-11,Series C,Canada,131.0
+Sisense,New York City,Data,60.0,0.13,2024-01-11,Series F,United States,274.0
+Cloudflare,SF Bay Area,Security,40.0,,2024-01-11,Post-IPO,United States,332.0
+Citrix,Miami,Infrastructure,1000.0,0.12,2024-01-10,Acquired,United States,20.0
+Google,SF Bay Area,Consumer,1000.0,,2024-01-10,Post-IPO,United States,26.0
+IAC,New York City,Consumer,330.0,,2024-01-10,Post-IPO,United States,
+FreshDirect,New York City,Food,100.0,0.03,2024-01-10,Acquired,United States,280.0
+Beam Benefits,Columbus,Healthcare,74.0,,2024-01-10,Series E,United States,168.0
+Instagram,SF Bay Area,Consumer,60.0,,2024-01-10,Acquired,United States,57.0
+Twitch,SF Bay Area,Consumer,500.0,0.35,2024-01-09,Acquired,United States,35.0
+Branch,Columbus,Finance,85.0,,2024-01-09,Series C,United States,229.0
+Nevro,SF Bay Area,Healthcare,63.0,0.05,2024-01-09,Post-IPO,United States,556.0
+FullStory,Atlanta,Marketing,50.0,0.1,2024-01-09,Unknown,United States,197.0
+Uber Freight,SF Bay Area,Logistics,40.0,,2024-01-09,Subsidiary,United States,2700.0
+Rent the Runway,New York City,Retail,37.0,0.1,2024-01-09,Post-IPO,United States,526.0
+Treasure Financial,SF Bay Area,Finance,14.0,0.6,2024-01-09,Series A,United States,14.0
+Humane,SF Bay Area,Hardware,10.0,0.04,2024-01-09,Series C,United States,230.0
+Unity,SF Bay Area,Other,1800.0,0.25,2024-01-08,Post-IPO,United States,1300.0
+Flipkart,Bengaluru,Retail,1100.0,0.05,2024-01-08,Acquired,India,12900.0
+NuScale Power,Corvallis,Energy,154.0,0.28,2024-01-08,Post-IPO,United States,470.0
+Flexe,Seattle,Logistics,99.0,0.38,2024-01-08,Series D,United States,263.0
+Pitch,Berlin,Other,80.0,0.67,2024-01-08,Series B,Germany,138.0
+BenchSci,Toronto,Healthcare,70.0,0.17,2024-01-08,Series D,Canada,164.0
+NanoString Technologies,Seattle,Healthcare,50.0,0.09,2024-01-06,Post-IPO,United States,826.0
+Cue Health,San Diego,Healthcare,94.0,0.13,2024-01-05,Post-IPO,United States,899.0
+Trigo,Tel Aviv,Retail,30.0,0.15,2024-01-04,Series C,Israel,199.0
+Xerox,Norwalk,Hardware,3000.0,0.15,2024-01-03,Post-IPO,United States,27200.0
+Lazada Group ,Singapore,Retail,100.0,0.3,2024-01-03,Acquired,Singapore,7200.0
+Orca Security,Tel Aviv,Security,60.0,0.15,2024-01-03,Series C,Israel,632.0
+Frontdesk,Milwaukee,Travel,200.0,1.0,2024-01-02,Unknown,United States,26.0
+The Messenger,New York City,Media,24.0,,2024-01-02,Unknown,United States,
