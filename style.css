@@ -1,4 +1,3 @@
-/* General Styles */
 html, body {
     margin: 0;
     padding: 0;
@@ -39,14 +38,14 @@ canvas {
     padding-top: 10px;
     padding-left: 20px;
     font-family: 'Space Mono', monospace;
-    z-index: 2001; /* Ensure it is on top */
+    z-index: 2001; 
 }
 
 #author-link {
     color: #333;
     font-size: 12px;
     text-decoration: none;
-    z-index: 2002; /* Ensure it is on top */
+    z-index: 2002; 
 }
 
 #author-link:hover {
@@ -122,7 +121,7 @@ canvas {
 #legend-popup-container {
     padding-left: 20px;
     width: 100%;
-    max-height: 900px;
+    max-height: 800px;
     transition: max-height 0.3s ease-in-out;
     overflow: hidden;
 }
@@ -153,14 +152,14 @@ canvas {
 .legend-item {
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     font-size: 12px;
     font-family: 'Space Mono', monospace;
 }
 
 .legend-color {
     width: 15px;
-    height: 20px;
+    height: 15px;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -189,7 +188,6 @@ body {
     height: 100vh;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 1024px) {
     #sticky-section, #author-section {
         width: 35%;
